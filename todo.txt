@@ -2,3 +2,4 @@
 - Learn Git
 - Push to GitHub
 - Collaborate with others
+- Test with 3 changes
