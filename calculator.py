@@ -21,7 +21,8 @@ def divide(a, b):
 
 def power(a, b):
     return a ** b
-print('Calculator ready!')
 
 def average(a, b):
-return (a + b)/2
+    return (a + b)/2
+
+print('Calculator ready!')
