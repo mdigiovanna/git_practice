@@ -15,4 +15,8 @@ Learning Git and GitHub for the first time!
 - Python 3
 - Git & GitHub
 
-# Updated from GitHub
+## Updated from GitHub
+
+## Development Environment
+- Using Visual Studio Code for Git integration
+- VS Code provides a visual interface for Git operation
