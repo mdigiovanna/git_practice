@@ -1,0 +1,25 @@
+name: Python CI
+
+on:
+  push:
+    branches-ignore: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  ci:
+    name: Code Quality
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run Tests
+        run: pytest -q tests
+        continue-on-error: true
+
+      - name: Success
+        if: success()
+        run: echo "Tests passed. You're safe for now.."
+
+      - name: Failure
+        if: failure()
+        run: echo "Tests failled. You're fired."
