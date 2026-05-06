@@ -20,3 +20,6 @@ Learning Git and GitHub for the first time!
 ## Development Environment
 - Using Visual Studio Code for Git integration
 - VS Code provides a visual interface for Git operation
+
+# Testing Branch Protection
+This change should be blocked by branch protection!
